@@ -14,7 +14,7 @@ func publishHomeAssistant() {
 	unique := xid.New()
 	hostURL := "http://" + getOutboundIP().String() + ":8123"
 	params := []string{
-		"location_name=Home Assistant",
+		"location_name=Vioneta Agro",
 		"uuid=",
 		"version=0.0.0",
 		"external_url=",

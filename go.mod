@@ -1,4 +1,4 @@
-module github.com/home-assistant/landingpage
+module github.com/Vioneta/landingpage
 
 go 1.19
 

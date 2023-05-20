@@ -1,14 +1,14 @@
-image: homeassistant/{machine}-homeassistant
-shadow_repository: ghcr.io/home-assistant
+image: vioneta/{machine}-vioneta
+shadow_repository: ghcr.io/vioneta
 build_from:
   aarch64: scratch
   armv7: scratch
   armhf: scratch
   amd64: scratch
   i386: scratch
-codenotary:
-  signer: notary@home-assistant.io
-  base_image: notary@home-assistant.io
+# codenotary:
+#   signer: notary@home-assistant.io
+#   base_image: notary@home-assistant.io
 labels:
   io.hass.type: landingpage
-  org.opencontainers.image.source: https://github.com/home-assistant/landingpage
+  org.opencontainers.image.source: https://github.com/Vioneta/landingpage
